@@ -1,0 +1,22 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+/* background-color:EEEEEE ; */
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #330066;
+}
+
+.inner_header{
+width: 1000px;
+height: 100%;
+display: block;
+margin: 0 auto;
+background-color: antiquewhite;
+}
