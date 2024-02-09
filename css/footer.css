@@ -4,7 +4,8 @@ dark blue : #173A76 , rgb(23,58,118) ******** prime
 slightly brighter : #2E4D83 , rgb(46,77,131)
 
 almost white : #d9d9d9 ******** prime
-green : #76cd26
+input text :#172641 (23,38,65) 
+
 
 yellow :rgb(228, 199, 11) ******** prime 
 yellow in dark background :#CDB309
@@ -53,7 +54,7 @@ yellow in dark background :#CDB309
     height: 2px;
     width: 100%;
     background: #2E4D83
-    /* #1a1a1a; */
+    
   }
   .box .content:after{
     position: absolute;
@@ -122,6 +123,7 @@ yellow in dark background :#CDB309
     background: #d9d9d9;
     padding-left: 10px;
     border: 2px solid #2E4D83;
+    color: #172641;
   
   }
   .right form input:focus,
