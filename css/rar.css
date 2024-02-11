@@ -1,0 +1,94 @@
+h1 {
+    position:relative;
+    text-align: center;
+    padding: 2cm;
+    color: rgb(23, 58, 118);
+
+}
+
+
+.rate{
+    position:relative;
+    background: rgb(23, 58, 118);
+    padding: 50px 150px;
+    font-size: medium;
+    text-align: center;
+    color:white;
+    
+}
+
+.link{
+    color:white
+}
+.rating h2{
+    position:relative;
+    text-align: center;
+    padding: 2cm;
+    color: rgb(23, 58, 118);    
+}
+button {
+    background-color:rgb(23, 58, 118);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.stars {
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+.rating {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+   
+}
+textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+}
+.reviews {
+    margin-top: 20px;
+    text-align: left;
+}
+
+ 
+.review p {
+    margin: 0;
+}
+.last p {
+    position:relative;
+    text-align: center;
+    color: rgb(23, 58, 118);
+
+}
+
+ul{
+    list-style: none;
+}
+.bar{
+   
+    top: 0;
+    left: 0;
+    position:fixed;
+    background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);  
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+   
+}
+.bar ul li .link{
+    color:rgb(23, 58, 118);  
+}
+.links{
+    display: flex;
+    align-items: center;  
+}
+
+
+.links li{
+    margin: 0 30px;
+}
