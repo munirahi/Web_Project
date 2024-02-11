@@ -24,7 +24,7 @@ yellow in dark background :#CDB309
   }
   
   footer{
-    position: fixed;
+    position: relative;
     bottom: 0px;
     width: 100%;
     background: rgb(23, 58, 118) ;
