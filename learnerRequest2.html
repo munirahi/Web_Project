@@ -3,6 +3,7 @@
     <head>
         <title>learnerRequest2</title>
         <link rel="stylesheet" href="learnerRequest2.css">
+        <link rel="stylesheet" href="footer.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/59189109f7.js" crossorigin="anonymous"></script>   
     </head>
@@ -141,7 +142,9 @@
                             <img src="cat.jpg">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Henry Ford</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status" id="accepted">Accepted</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>
                     </div>
@@ -151,7 +154,9 @@
                          <img src="cat.jpg">
                          <div class="status-info">
                             <h6><i class="fa-solid fa-user"></i> Nina Grace</h6>
-                            <h6 class="status">Pending</h6>
+                            <h6 class="status" id="pending">Pending</h6>
+                            <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                          </div>
                         </div>
                     </div>
@@ -161,7 +166,9 @@
                             <img src="cat.jpg">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Cath Roberts</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="rejected">Rejected</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
@@ -171,7 +178,9 @@
                             <img src="cat.jpg">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Mason Bell</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="pending">Pending</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
@@ -181,7 +190,9 @@
                             <img src="cat.jpg">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Drew Lawrence</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="pending">Pending</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
@@ -191,10 +202,10 @@
                             <img src="cat.jpg">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Rosanna Howard</h6>
-                               <h6 class="status">Pending</h6>
-                               <h6 class="options">Edit Cancel</h6>
-                            </div>
-                           </div>  
+                               <h6 class="status" id="pending">Pending</h6>
+                                <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
+                        </div>  
                     </div>
 
                     
@@ -211,6 +222,72 @@
                 s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>
             </p-->
          </main>
+
+         <div class="content">
+            <!-- add yours here -->
+                </div>
+                <footer>
+                  <div class="main-content">
+                    <div class="left box">
+                      <h2>About us</h2>
+                      <div class="content">
+                        <p> Embark on a linguistic journey with linguist. Connect with native speakers worldwide,
+                             hone your language skills through immersive experiences, and unlock new cultures from the comfort of your home.</p>
+                        <div class="social">
+                          <a href="#"><span class="fab fa-facebook-f"></span></a>
+                          <a href="#"><span class="fab fa-twitter"></span></a>
+                          <a href="#"><span class="fab fa-instagram"></span></a>
+                          <a href="#"><span class="fab fa-youtube"></span></a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="center box">
+                      <h2>Address</h2>
+                      <div class="content">
+                        <div class="place">
+                          <span class="fas fa-map-marker-alt"></span>
+                          <span class="text">Riyadh, KSA</span>
+                        </div>
+                        <div class="phone">
+                          <span class="fas fa-phone-alt"></span>
+                          <span class="text">+966-505432100</span>
+                        </div>
+                        <div class="email">
+                          <span class="fas fa-envelope"></span>
+                          <span class="text">content@linguist.com</span>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="right box">
+                      <h2>Contact us</h2>
+                      <div class="content">
+                        <form action="#">
+                          <div class="email">
+                            <div class="text">Email <span class="required">*</span></div>
+                            <input type="email" required>
+                          </div>
+                          <div class="msg">
+                            <div class="text">Message <span class="required">*</span></div>
+                            <textarea rows="2" cols="25" required></textarea>
+                          </div>
+                          <div class="btn">
+                            <button type="submit">Send</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <section>
+                      <span class="credit">Created By <a href="#">linguist</a> | </span>
+                      <span class="far fa-copyright"></span><span> 2024 All rights reserved.</span>
+                    </section>
+                  </div>
+                </footer>
+              
     </body>
 </html>
+
 
