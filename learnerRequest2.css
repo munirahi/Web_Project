@@ -219,7 +219,7 @@ nav{
     }
 
     .status-div{
-        flex: 1;
+        /*flex: 1;*/
         background-color: #173A76;
         width: 25%;
         height: 450px;
@@ -249,7 +249,7 @@ nav{
 
     .status-cell{
         background-color: #d9d9d9;
-        color: #173A76;
+        color: black;
         border-radius: 10px;
         margin: 10px;
 
@@ -261,7 +261,7 @@ nav{
 
 
     .status-cell img{
-        flex: 20%;
+        flex: 20%; 
         width: 20%;
         height: 20%;
         margin-right: 5px;
@@ -270,8 +270,12 @@ nav{
     }
     
     .status-info{
-        flex: 70%;
+        flex: 70%; 
         margin-top: 7px;
+    }
+
+    .status-cell img, .status-info{
+        display: inline-block;
     }
 
     .inner-div{
@@ -281,17 +285,61 @@ nav{
     .status{
         border-radius: 10px;
         padding: 5px;
-        background-color: #CDB309;
-        width: 70px;
+        
+        width: auto;
         text-align: center;
-        display: flex;
+        
     }
 
-    .options{
+    #accepted{
+        background-color: rgb(47, 118, 47);
+        color: #d9d9d9;
+    }
+
+    #pending{
+        background-color: #CDB309;
+    }
+
+    #rejected{
+        background-color: rgb(125, 14, 14);
+        color: #d9d9d9;
+    }
+
+    /*.options{
         color: #aaaaaa;
         text-align: center;
         
     }
+
+   /* .cancel-Edit{
+        display: inline-block;
+    }*/
+
+    .edit, .cancel{
+        display: inline-block;
+        position: relative ;
+        
+        width: 69px;
+        /*bottom: -40px;*/
+        color: #d9d9d9;
+        background-color: #2E4D83;
+        border: none;
+        border-radius: 10px;
+        margin-bottom:  3px;
+    }
+
+    .cancel{
+        background-color: rgb(125, 14, 14);
+    }
+
+     .edit:hover{
+        background-color: #173A76;
+    }
+    .cancel:hover{
+        background-color: rgb(160, 22, 22);
+    }
+
+    
 
 
    /* .grid-container{
