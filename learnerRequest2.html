@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>learnerRequest2</title>
+        <link rel="stylesheet" href="learnerRequest2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/59189109f7.js" crossorigin="anonymous"></script>   
+    </head>
+
+    <body>
+        <header id="header">
+            <div id="header div">
+            <nav class="fixed-top">
+                <ul id="ul1">
+                    <li><!--div class="header-logo"-->LINGUIST<!--/div--></li>
+                    <li>Home</li>
+                    <li>Sessions</li>
+                    <li>Requests</li>
+                    <li>Rate and Review</li>
+                </ul>
+                <ul id="ul2">
+                    <li id="msgs li">Messages</li>
+                    <li id="acnt li">Account</li>
+                </ul>
+            </nav>
+        </div>
+         </header>
+         
+
+         <main class="grid-container">
+
+        <div class="containing-div">
+
+            <div class="request_div inner-div">
+                <h5 id="new-req-header">Create a New Request!</h5>
+                <form>
+                    <fieldset class="fs">
+                        <!--legend>Request Specifications</legend-->
+                        <label>Language<br>
+                            <select class="input-box" name="Language">  <!--class="form-control form-control-sm"-->
+                                <option></option>
+                                <option>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                                <option>Arabic</option>
+                            </select>
+                        </label>
+
+                        <label name="level">Level<br>
+                            <select class="input-box" name="level">
+                                <option></option>
+                                <option>Beginner</option>
+                                <option>Intermediate</option>
+                                <option>Advanced</option>
+                            </select>
+                        </label>
+
+                        <label>Duration<br>
+                            <select class="input-box" name="Duration">
+                                <option></option>
+                                <option>10 Minutes</option>
+                                <option>20 Minutes</option>
+                                <option>30 Minutes</option>
+                                <option>60 Minutes</option>
+                            </select>
+                        </label>
+
+                        <label>Date and Time<br>
+                            <input class="input-box" type="datetime-local">
+                        </label>
+                        <button id="go-btn">Go!</button>
+                    </fieldset>
+                </form>
+
+                <h5 id="result-header">Results</h5>
+                <div class="result">
+                    
+                    <div class="result-carousel">
+                        <div class="result-cell">
+                            
+                            
+                            <div class="acc-info"> <!--row-->
+                                <img class="result-img" src="cat.jpg"> <!--column1-->
+                                <div class="more-info">
+                                    <h6><i class="fa-solid fa-user"></i> Mason Bell <i class="fa-solid fa-star"></i> 4 <i class="fa-solid fa-dollar-sign"></i> 45</h6>
+                                   <h6 id="categories">English | Advanced</h6>
+                                </div>     
+                            </div>
+                            
+                            <div class="bio">
+                                <p>Hi! I'm Mason from Australia. I am an enthusiastic English teacher who wants to help you improve your English!</p>
+                            </div>
+                            <div  class="post-req-btn">
+                             <button>Post Request</button>
+                            </div>
+                        </div>
+
+                        <div class="result-cell">
+                
+                            <div class="acc-info">
+                                <img class="result-img" src="cat.jpg">
+                                <div class="more-info">
+                                 <h6><i class="fa-solid fa-user"></i> Cath Roberts <i class="fa-solid fa-star"></i> 4.5 <i class="fa-solid fa-dollar-sign"></i> 50</h6>
+                                 <h6 id="categories">Spanish | Intermediate</h6>
+                                </div>
+                            </div>
+                            <div class="bio">
+                                <p>Hey! I love helping people achieve their goals and I can't wait to have a full in depth conversation with you!</p>
+                            </div>
+                            <div  class="post-req-btn">
+                                <button>Post Request</button>
+                            </div>
+                        </div>
+
+                        <div class="result-cell">
+                            
+                            <div class="acc-info">
+                                <img class="result-img" src="cat.jpg">
+                                <div class="more-info">
+                                 <h6><i class="fa-solid fa-user"></i> Nina Grace <i class="fa-solid fa-star"></i> 5 <i class="fa-solid fa-dollar-sign"></i> 40</h6>
+                                 <h6 id="categories">French | Beginner</h6>
+                                </div>
+                            </div>
+                            <div class="bio">
+                                <p>Hello! My name is Nina and I'm happy to be your tutor! I love learning about new cultures and meeting new people.</p>
+                            </div>
+                            <div  class="post-req-btn">
+                                <button>Post Request</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="status-div inner-div">
+                <h5>Requests Status</h5>
+                <div class="inner-status">
+                    <div class="status-cell">
+                        <div class="acc-info">
+                            <img src="cat.jpg">
+                            <div class="status-info">
+                               <h6><i class="fa-solid fa-user"></i> Henry Ford</h6>
+                               <h6 class="status">Pending</h6>
+                            </div>
+                           </div>
+                    </div>
+
+                    <div class="status-cell">
+                        <div class="acc-info">
+                         <img src="cat.jpg">
+                         <div class="status-info">
+                            <h6><i class="fa-solid fa-user"></i> Nina Grace</h6>
+                            <h6 class="status">Pending</h6>
+                         </div>
+                        </div>
+                    </div>
+
+                    <div class="status-cell">
+                        <div class="acc-info">
+                            <img src="cat.jpg">
+                            <div class="status-info">
+                               <h6><i class="fa-solid fa-user"></i> Cath Roberts</h6>
+                               <h6 class="status">Pending</h6>
+                            </div>
+                           </div>  
+                    </div>
+
+                    <div class="status-cell">
+                        <div class="acc-info">
+                            <img src="cat.jpg">
+                            <div class="status-info">
+                               <h6><i class="fa-solid fa-user"></i> Mason Bell</h6>
+                               <h6 class="status">Pending</h6>
+                            </div>
+                           </div>  
+                    </div>
+
+                    <div class="status-cell">
+                        <div class="acc-info">
+                            <img src="cat.jpg">
+                            <div class="status-info">
+                               <h6><i class="fa-solid fa-user"></i> Drew Lawrence</h6>
+                               <h6 class="status">Pending</h6>
+                            </div>
+                           </div>  
+                    </div>
+
+                    <div class="status-cell">
+                        <div class="acc-info">
+                            <img src="cat.jpg">
+                            <div class="status-info">
+                               <h6><i class="fa-solid fa-user"></i> Rosanna Howard</h6>
+                               <h6 class="status">Pending</h6>
+                               <h6 class="options">Edit Cancel</h6>
+                            </div>
+                           </div>  
+                    </div>
+
+                    
+
+                </div>
+                
+            </div>
+        </div>
+           
+            <!--p>
+                <br>s<br>
+                s<br>s<br>
+                s<br>
+                s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>
+            </p-->
+         </main>
+    </body>
+</html>
+
