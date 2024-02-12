@@ -11,14 +11,14 @@ yellow :rgb(228, 199, 11) ******** prime
 yellow in dark background :#CDB309
 
 */
-*{
+/* *{
     margin: 0;
     padding: 0;
-    /* text color */
+  
     color: #d9d9d9;
     box-sizing: border-box;
     font-family:  sans-serif;
-  }
+  } */
   .required{
       color:red;
   }
@@ -28,6 +28,12 @@ yellow in dark background :#CDB309
     bottom: 0px;
     width: 100%;
     background: rgb(23, 58, 118) ;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 0;
+    /* text color */
+    color: #d9d9d9;
    
   }
   .main-content{ 
@@ -135,6 +141,7 @@ yellow in dark background :#CDB309
   }
   .right form .btn{
     margin-top: 10px;
+    border-radius: 10px;
   }
   .right form .btn button{
     height: 40px;
@@ -146,6 +153,7 @@ yellow in dark background :#CDB309
     font-weight: 500;
     cursor: pointer;
     transition: .3s;
+    border-radius: 10px;
   }
   .right form .btn button:hover{
     background: #2E4D83;

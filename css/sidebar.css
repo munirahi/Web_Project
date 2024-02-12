@@ -17,7 +17,7 @@ yellow in dark background :#CDB309
     position: fixed;
     top: 0;
     left: 0;
-    width: 350px;
+    width: 25%;
     height: 100%;
     background-color: #f8f9fa;
     padding: 20px;
@@ -62,8 +62,8 @@ yellow in dark background :#CDB309
     color: #999;
 }
 .card-body-profile img {
-    width: 100px; /* Adjust image size as needed */
-    height: 100px; /* Adjust image size as needed */
+    width: 35%; /* Adjust image size as needed */
+    height: 35%; /* Adjust image size as needed */
     border-radius: 50%; /* Make the image round */
     margin-bottom: 10px;
   
