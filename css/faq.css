@@ -1,31 +1,34 @@
-h1 {
+.faq h1 {
     position:relative;
     text-align: center;
     padding: 2cm;
     color: rgb(23, 58, 118);
 
 }
-h2{
+.faq h2{
     position:relative;
     text-align: center;
-    padding: 2cm;
     color: rgb(23, 58, 118);
 }
-li{
+.questions li{
     position:relative;
-    background: rgb(23, 58, 118);
-    padding: 50px 150px;
     font-size: medium;
     text-align: center;
     color:white;
-
-
 }
-label{
+.box{
+    
+    background: rgb(23, 58, 118);
+    padding: 20px 20px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 8px;
+  margin: 30px;;
+}
+.questions label{
   position: relative;
-  top: 2cm;
+ 
 }
 .cql{
-    text-underline-position:below ;
     color:rgb(228, 199, 11); 
 }
