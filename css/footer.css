@@ -24,8 +24,9 @@ yellow in dark background :#CDB309
   }
   
   footer{
-    position: relative;
-    bottom: 0px;
+    position: relative ;
+    bottom: 0;
+    left: 0;
     width: 100%;
     background: rgb(23, 58, 118) ;
     box-sizing: border-box;
@@ -88,6 +89,7 @@ yellow in dark background :#CDB309
     font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
+    color: #d9d9d9;
   }
   .left .content .social a span:hover{
     background: #CDB309;
@@ -103,6 +105,7 @@ yellow in dark background :#CDB309
     transition: 0.3s;
     cursor: pointer;
   }
+  /* icon hover */
   .center .content .fas:hover{
     background: #CDB309;
   }
@@ -127,6 +130,7 @@ yellow in dark background :#CDB309
     width: 100%;
     font-size: 1.0625rem;
     background: #d9d9d9;
+    border-radius: 10px;
     padding-left: 10px;
     border: 2px solid #2E4D83;
     color: #172641;
