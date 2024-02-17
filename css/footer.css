@@ -22,17 +22,21 @@ yellow in dark background :#CDB309
   .required{
       color:red;
   }
-  
+ body{
+  margin: 0;
+ }
   footer{
+    
+    padding: 0;
     position: relative ;
+    box-sizing: border-box;
     bottom: 0;
     left: 0;
     width: 100%;
     background: rgb(23, 58, 118) ;
-    box-sizing: border-box;
+   
     font-family:  sans-serif;
-    margin: 0;
-    padding: 0;
+  
     /* text color */
     color: #d9d9d9;
    
