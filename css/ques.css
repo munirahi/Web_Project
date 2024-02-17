@@ -1,20 +1,14 @@
-h1{
+.que h1{
     
     position:relative;
     background: rgb(23, 58, 118);
     padding: 50px 150px;
     font-size: medium;
     text-align: center;
-    color:rgb(228, 199, 11); 
-    top: 3cm;
+    color:white; 
+    top: 2cm;
 }
-
-
-
-
-
-
-h2{
+.que h2{
 
 
     position:relative;
@@ -22,7 +16,7 @@ h2{
     padding: 50px 150px;
     font-size: medium;
     text-align: center;
-    color:rgb(228, 199, 11); 
-    top: 6cm;
+    color:white; 
+    top: 4cm;
     
 }
