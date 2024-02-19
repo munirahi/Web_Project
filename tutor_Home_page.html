@@ -2,22 +2,55 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>lenguest</title>
-<link rel="stylesheet" type="text/css" href="css/css-for-tutor-home.css">
+    <title>LINGUIST</title>
+    <link rel="stylesheet" type="text/css" href="css/css-for-tutor-home.css">
 <link rel="stylesheet" href="css/footer.css">
-<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+<link rel="stylesheet" type="text/css" href="css/sidebar-tutor.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link rel="stylesheet" href="req.css">
+<link rel="stylesheet" href="header2.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+
 
 </head>
-
+<script src="https://kit.fontawesome.com/5a18e3112f.js" crossorigin="anonymous"></script>
 <body>
     <header id="header">
  
-     </header>
+     
+        <div id="header div">
+        <nav class="fixed-top" id="main-nav">
+            <ul id="ul1">
+                <li><!--div class="header-logo"-->LINGUIST<!--/div--></li>
+                <li><a href="homepagel.html">Home</a></li>
+                <li><a href="#">Sessions</a></li>
+                <li><a href="learnerRequest2.html">Requests</a></li>
+                <li><a href="#">Rate and Review</a></li>
+            </ul>
+            <ul id="ul2">
+                <li id="msgs li">Messages</li>
+                <li id="acnt li">
+                    <nav id="account-nav">Account<div id="down-triangle"></div>
+                        <ul>
+                            <li><a href="#"><div class="circle"></div>Edit Account</a></li>
+                            <li><a href="#"><div class="circle"></div>Log Out</a></li>
+                        </ul>
 
+                    </nav>
+                </li>
+            </ul>
+        </nav>
+    </div>
+     
+     </header>
+    <section class="continer">
+
+
+            
             <aside class="sidebar">
                 
-                    <div class="card">
+                    <div class="sidebar-card">
                         <div class="card-body-profile">
                             <img src="images/profile.png" alt="Profile Picture">
                             <h2>joun</h2>
@@ -29,15 +62,18 @@
                         
                             <ul class="stats">
                                 <li id="hours">
+                                  <i class="fa-solid fa-clock"></i>
                                     <span>Total Hours of Teaching</span>
                                     <span>100</span>
                                 </li>
                                 <li id="earnings">
+                                    <i class="fa-solid fa-money-bill-wave"></i>
                                     <span>Total Earnings</span>
                                     <span>$1000</span>
                                 </li>
                                 <li id="Rating">
                                     <a href="#">
+                                      <i class="fa-solid fa-star"></i>
                                         <span>Rating</span>
                                     </a>
                                     <span>4.5 (500 ratings)</span>
@@ -46,28 +82,279 @@
                                     <span>Teaching Languages</span>
                                     <span>English, Spanish, French</span>
                                 </li>
+                                <li id="Cultural backgrounds">
+                                  <span>Cultural backgrounds</span>
+                                  <img class="flag" src="flag.png" alt="KSA">
+                              <img class="flag" src="france.png" alt="French">
+                                </li>
                                 <li>
                                     <span>Achievements</span>
                                     <span>
-                                        <img src="achievement1.png" alt="Achievement 1">
-                                        <img src="achievement2.png" alt="Achievement 2">
+                                      <i class="fa-solid fa-gift"></i>
+                                      <i class="fa-solid fa-handshake"></i>
                                         <!-- Add more achievements as needed -->
                                     </span>
                                 </li>
+
+                                <li>
+                                  <hr>
+                                  <i class="fa-solid fa-user"></i>
+                                  <!-- add icons -->
+                                  <a href="#">Profile Settings</a>
+                                </li>
                                 <hr>
-                                <!-- add icons -->
-                                <a href="#">Profile Settings</a>
+                              
                             </ul>
                         </div>
                     </div>
-                    
-                </div>
+            </aside>  
                 
-                
+            <section class="center">
+              <section class="sessions">
+                <section class="current-sessions">
+                  <h3>Today's sessions </h3>
+                  <!-- rename this !!!! -->
+                  <section class="Today-sessions">
+                    <div class="current-sessions-card" >
+                      <div class="carousel-cell">
+                        <img class="current-session-img" src="images/profile.png" alt="current-session">
+                        <div class="card-inner"><h2>Andrew Paul</h2>
+                        <section class="incard-elements-sessions">
+                          <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                          <p class="level">beginner</p>
+                          <p class="type">discusstion</p>
+                          <p class="duration">10 min</p>
+
+                      </section>
+                          <a class="enter-btn" href="#">join the session</a></div>
+                      </div>
+
+                    </div>
+                    <div class="current-sessions-card" >
+                      <div class="carousel-cell">
+                        <img class="current-session-img" src="images/profile.png" alt="current-session">
+                        <div class="card-inner"><h2>Olivia Andrew </h2>
+                        <section class="incard-elements-sessions">
+                          <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                          <p class="level">Intermediate</p>
+                          <p class="type">session</p>
+                          <p class="duration">20 min</p>
+
+                      </section>
+                          <a class="enter-btn" href="#">Starts at 3:30 PM</a></div>
+                      </div>
+
+                    </div>
+                    <div class="current-sessions-card" >
+                      <div class="carousel-cell">
+                        <img class="current-session-img" src="images/profile.png" alt="current-session">
+                        <div class="card-inner"><h2>Larry scott</h2>
+                        <section class="incard-elements-sessions">
+                          <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                          <p class="level">Advanced</p>
+                          <p class="type">session</p>
+                          <p class="duration">30 min</p>
+
+                      </section>
+                          <a class="enter-btn" href="#">Starts at 5:30 PM</a></div>
+                      </div>
+
+                    </div>
+                    <div class="current-sessions-card" >
+                      <div class="carousel-cell">
+                        <img class="current-session-img" src="trying/profile.png" alt="current-session">
+                        <div class="card-inner"><h2>Keith Walter</h2>
+                        <section class="incard-elements-sessions">
+                          <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                          <p class="level">Advanced</p>
+                          <p class="type">session</p>
+                          <p class="duration">30 min</p>
+
+                      </section>
+                          <a class="enter-btn" href="#">Starts at 6:00 PM</a></div>
+                      </div>
+
+                    </div>
+
+                  </section>
+
+                </section>   <!--  -->
+              </section>
 
 
+              <section class="sessions">
+                    <h3>This week sessions </h3>
+                    <br>
+                    <section class="week-sesstoin">
+                      <div class="request-card">
+                        <div class="learner-info">
+                         
+                          <img src="trying/profile.png" alt="profile Picture">
+                         
+                          <div class="day">
+                            <p><strong>tom jefry</strong></p>  
+                            <p class="day-of-upcoming-sesstions">Tomrrow</p>
+                          </div>
+                          
+                        </div>
+                      
+                          <section class="incard-elements">
+                              <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                              <p class="level">beginner</p>
+                              <p class="type">session</p>
+                              <p class="duration">30 min</p>
 
-            </aside>
+                          </section>
+                              
+                      </div>
+                      <div class="request-card">
+                        <div class="learner-info">
+                         
+                          <img src="trying/profile.png" alt="profile Picture">
+                         
+                          <div class="day">
+                            <p><strong>tom jefry</strong></p>  
+                            <p class="day-of-upcoming-sesstions">Tomrrow</p>
+                          </div>
+                          
+                        </div>
+                      
+                          <section class="incard-elements">
+                              <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                              <p class="level">beginner</p>
+                              <p class="type">session</p>
+                              <p class="duration">30 min</p>
+
+                          </section>
+                              
+                      </div>
+
+                      <div class="request-card">
+                        <div class="learner-info">
+                         
+                          <img src="trying/profile.png" alt="profile Picture">
+                         
+                          <div class="day">
+                            <p><strong>tom jefry</strong></p>  
+                            <p class="day-of-upcoming-sesstions">Sunday</p>
+                          </div>
+                          
+                        </div>
+                      
+                          <section class="incard-elements">
+                              <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                              <p class="level">beginner</p>
+                              <p class="type">session</p>
+                              <p class="duration">30 min</p>
+
+                          </section>
+                              
+                      </div>
+                  
+                         
+                    </section>
+                      
+                    <a href="#"> <button class="view-more-button">view all sessions</button></a>
+
+                </section>
+                <section class="new-requests-container">
+                    <h3>New requests </h3>
+                    <br>
+                    <section class="requests">
+                        
+                            <div class="request-card">
+                              <div class="learner-info">
+                               
+                                <img src="trying/profile.png" alt="profile Picture">
+                                <h4><strong>
+                                  tom jefry</strong>
+                                </h4>
+                              </div>
+                            
+                                <section class="incard-elements">
+                                    <p class="language"><img class="flag" src="france.png" alt="French">French</p>
+                                    <p class="level">beginner</p>
+                                    <p class="type">discusstion</p>
+                                    <p class="duration">30 min</p>
+
+                                </section>
+                                    
+                            </div>
+                            <div class="request-card">
+                              <div class="learner-info">
+                               
+                                <img src="trying/profile.png" alt="profile Picture">
+                                <h4><strong>Ann Philip</strong> </h4>
+                              </div>
+                            
+                                <section class="incard-elements">
+                                    <p class="language"><img class="flag" src="united-states.png" alt="united-states">English</p>
+                                    <p class="level">Advanced</p>
+                                    <p class="type">sesstion</p>
+                                    <p class="duration">60 min</p>
+
+                                </section>
+                                    
+                            </div>
+                            <div class="request-card">
+                              <div class="learner-info">
+                               
+                                <img src="trying/profile.png" alt="profile Picture">
+                                <h4><strong>Kevin Mark</strong> </h4>
+                              </div>
+                            
+                                <section class="incard-elements">
+                                    <p class="language"><img class="flag" src="united-states.png" alt="united-states">English</p>
+                                    <p class="level">beginner</p>
+                                    <p class="type">sesstion</p>
+                                    <p class="duration">30 min</p>
+
+                                </section>
+                            </div>
+                            <div class="request-card">
+                              <div class="learner-info">
+                               
+                                <img src="trying/profile.png" alt="profile Picture">
+                                <h4><strong>Dylan Mark</strong> </h4>
+                              </div>
+                            
+                                <section class="incard-elements">
+                                    <p class="language"><img class="flag" src="france.png" alt="French">English</p>
+                                    <p class="level">Intermediate</p>
+                                    <p class="type">sesstion</p>
+                                    <p class="duration">60 min</p>
+
+                                </section>
+                                    
+                            </div>
+                            <div class="request-card">
+                              <div class="learner-info">
+                               
+                                <img src="trying/profile.png" alt="profile Picture">
+                                <h4><strong>joe judy</strong> </h4>
+                              </div>
+                            
+                                <section class="incard-elements">
+                                    <p class="language"><img class="flag" src="france.png" alt="French">English</p>
+                                    <p class="level">Intermediate</p>
+                                    <p class="type">sesstion</p>
+                                    <p class="duration">60 min</p>
+
+                                </section>
+                                    
+                            </div>
+                       
+                    </section>
+                    <a href="#"> <button class="view-more-button">view all requests</button></a>
+
+                </section>
+
+            </section>
+             
+
+    </section>
+
+            
             <footer>
                 <div class="main-content">
                   <div class="left box">
