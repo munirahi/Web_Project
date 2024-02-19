@@ -4,6 +4,7 @@
         <title>Tutor Request</title>
         <link rel="stylesheet" href="tutorReq.css">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="header2.css">
         <script src="https://kit.fontawesome.com/59189109f7.js" crossorigin="anonymous"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         
@@ -13,17 +14,28 @@
 
         <header id="header">
             <div id="header div">
-            <nav class="fixed-top">
+            <nav class="fixed-top" id="main-nav">
                 <ul id="ul1">
                     <li><!--div class="header-logo"-->LINGUIST<!--/div--></li>
-                    <li>Home</li>
-                    <li>Sessions</li>
-                    <li>Requests</li>
-                    <li>Rate and Review</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sessions</a></li>
+                    <li><a href="#">Requests</a></li>
+                    <li><a href="#">Rate and Review</a></li>
+                    <li><a href="#">Support</a></li>
                 </ul>
                 <ul id="ul2">
-                    <li id="msgs li">Messages</li>
-                    <li id="acnt li">Account</li>
+                    
+                    <li id="acnt li">
+                        <nav id="account-nav"><img src="account.jfif" id="account-img">
+                            <ul>
+                                <li class="account-list"><a href="#"><div class="circle"></div>View Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Edit Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Delete Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Log Out</a></li>
+                            </ul>
+
+                        </nav>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -32,7 +44,7 @@
          <main class="grid-container">
             <div class="containing-div">
     
-                <div class="request_div inner-div">
+                <div class="new-request_div inner-div">
                     <h5 id="new-req-header">New Requests!</h5>
                     <div class="result">
                         
@@ -41,15 +53,18 @@
                                 
                                 
                                 <div class="acc-info"> <!--row-->
-                                    <img class="result-img" src="cat.jpg"> <!--column1-->
+                                    <img class="result-img" src="maleIcon3.png"> <!--column1-->
                                     <div class="more-info">
-                                        <h6><i class="fa-solid fa-user"></i> Mason Bell</h6>
-                                       <h6 id="categories">English | Advanced</h6>
+                                        <h5><i class="fa-solid fa-user"></i> Mason Bell</h5>
+                                       
                                     </div>     
                                 </div>
                                 
-                                <div class="bio">
-                                    <p>Hi! I'm Mason from Australia. I am an enthusiastic English teacher who wants to help you improve your English!</p>
+                                <div class="specifications-div">
+                                    <div class="language specifications">English</div>
+                                    <div class="level specifications">Beginner</div>
+                                    <div class="duration specifications">30 Minutes</div>
+                                    <div class="dateAndTime specifications">15:00, 1/3/2024</div>
                                 </div>
                                 <div class="req-options">
                                     <div  class="accept-req-btn">
@@ -64,14 +79,20 @@
                             <div class="result-cell">
                     
                                 <div class="acc-info">
-                                    <img class="result-img" src="cat.jpg">
+                                    <img class="result-img" src="femaleIcon.png">
                                     <div class="more-info">
-                                     <h6><i class="fa-solid fa-user"></i> Cath Roberts</h6>
-                                     <h6 id="categories">Spanish | Intermediate</h6>
+                                     <h5><i class="fa-solid fa-user"></i> Cath Roberts</h5>
+                                     <!--h6 id="categories">Spanish | Intermediate</h6-->
                                     </div>
                                 </div>
-                                <div class="bio">
+                                <!--div class="bio">
                                     <p>Hey! I love helping people achieve their goals and I can't wait to have a full in depth conversation with you!</p>
+                                </div-->
+                                <div class="specifications-div">
+                                    <div class="language specifications">English</div>
+                                    <div class="level specifications">Beginner</div>
+                                    <div class="duration specifications">30 Minutes</div>
+                                    <div class="dateAndTime specifications">15:00, 1/3/2024</div>
                                 </div>
                                 <div class="req-options">
                                     <div  class="accept-req-btn">
@@ -86,14 +107,17 @@
                             <div class="result-cell">
                                 
                                 <div class="acc-info">
-                                    <img class="result-img" src="cat.jpg">
+                                    <img class="result-img" src="femaleIcon3.png">
                                     <div class="more-info">
-                                     <h6><i class="fa-solid fa-user"></i> Nina Grace </h6>
-                                     <h6 id="categories">French | Beginner</h6>
+                                     <h5><i class="fa-solid fa-user"></i> Nina Grace </h5>
+                                     
                                     </div>
                                 </div>
-                                <div class="bio">
-                                    <p>Hello! My name is Nina and I'm happy to be your tutor! I love learning about new cultures and meeting new people.</p>
+                                <div class="specifications-div">
+                                    <div class="language specifications">English</div>
+                                    <div class="level specifications">Beginner</div>
+                                    <div class="duration specifications">30 Minutes</div>
+                                    <div class="dateAndTime specifications">15:00, 1/3/2024</div>
                                 </div>
                                 <div class="req-options">
                                     <div  class="accept-req-btn">
@@ -108,14 +132,17 @@
                             <div class="result-cell">
                                 
                                 <div class="acc-info">
-                                    <img class="result-img" src="cat.jpg">
+                                    <img class="result-img" src="maleIcon.png">
                                     <div class="more-info">
-                                     <h6><i class="fa-solid fa-user"></i> Nina Grace</h6>
-                                     <h6 id="categories">French | Beginner</h6>
+                                     <h5><i class="fa-solid fa-user"></i> Henry Ford</h5>
+                                     
                                     </div>
                                 </div>
-                                <div class="bio">
-                                    <p>Hello! My name is Nina and I'm happy to be your tutor! I love learning about new cultures and meeting new people.</p>
+                                <div class="specifications-div">
+                                    <div class="language specifications">English</div>
+                                    <div class="level specifications">Beginner</div>
+                                    <div class="duration specifications">30 Minutes</div>
+                                    <div class="dateAndTime specifications">15:00, 1/3/2024</div>
                                 </div>
                                 <div class="req-options">
                                     <div  class="accept-req-btn">
@@ -127,31 +154,119 @@
                                 </div>
                             </div>
 
-                            <div class="result-cell">
-                                
-                                <div class="acc-info">
-                                    <img class="result-img" src="cat.jpg">
-                                    <div class="more-info">
-                                     <h6><i class="fa-solid fa-user"></i> Nina Grace</h6>
-                                     <h6 id="categories">French | Beginner</h6>
-                                    </div>
-                                </div>
-                                <div class="bio">
-                                    <p>Hello! My name is Nina and I'm happy to be your tutor! I love learning about new cultures and meeting new people.</p>
-                                </div>
-                                <div class="req-options">
-                                    <div  class="accept-req-btn">
-                                        <button>Accept</button>
-                                    </div>
-                                    <div  class="reject-req-btn">
-                                        <button>Reject</button>
-                                    </div>
-                                </div>
-                            </div>
+                            
     
                         </div>
                     </div>
                 </div>
+<!---------------------------------------------------------------------------------------------------------------------->
+                <div class="containing-div">
+    
+                    <div class="past-request_div inner-div">
+                        <h5 id="new-req-header">Previous Requests</h5>
+                        <div class="result">
+                            
+                            <div class="result-carousel">
+                                <div class="result-cell">
+                                    
+                                    
+                                    <div class="acc-info"> <!--row-->
+                                        <img class="result-img" src="maleIcon3.png"> <!--column1-->
+                                        <div class="more-info">
+                                            <h5><i class="fa-solid fa-user"></i> Mason Bell</h5>
+                                           
+                                        </div>     
+                                    </div>
+                                    
+                                    <div class="specifications-div">
+                                        <div class="language specifications">English</div>
+                                        <div class="level specifications">Beginner</div>
+                                        <div class="duration specifications">30 Minutes</div>
+                                        <div class="dateAndTime specifications">15:00, 1/3/2024</div>
+                                    </div>
+                                    <div class="req-final-status accepted">Accepted</div>
+                                </div>
+        
+                                <div class="result-cell">
+                        
+                                    <div class="acc-info">
+                                        <img class="result-img" src="femaleIcon2.png">
+                                        <div class="more-info">
+                                         <h5><i class="fa-solid fa-user"></i> Cath Roberts</h5>
+                                         <!--h6 id="categories">Spanish | Intermediate</h6-->
+                                        </div>
+                                    </div>
+                                    <div class="specifications-div">
+                                        <div class="language specifications">English</div>
+                                        <div class="level specifications">Beginner</div>
+                                        <div class="duration specifications">30 Minutes</div>
+                                        <div class="dateAndTime specifications">15:00, 1/3/2024</div>
+                                    </div>
+                                    <div class="req-final-status rejected">Rejected</div>
+                                </div>
+        
+                                <div class="result-cell">
+                                    
+                                    <div class="acc-info">
+                                        <img class="result-img" src="maleIcon.png">
+                                        <div class="more-info">
+                                         <h5><i class="fa-solid fa-user"></i> Drew Lawrence</h5>
+                                         
+                                        </div>
+                                    </div>
+                                    <div class="specifications-div">
+                                        <div class="language specifications">English</div>
+                                        <div class="level specifications">Beginner</div>
+                                        <div class="duration specifications">30 Minutes</div>
+                                        <div class="dateAndTime specifications">15:00, 1/3/2024</div>
+                                    </div>
+                                    <div class="req-final-status accepted">Accepted</div>
+                                </div>
+    
+                                <div class="result-cell">
+                                    
+                                    <div class="acc-info">
+                                        <img class="result-img" src="maleIcon2.png">
+                                        <div class="more-info">
+                                         <h5><i class="fa-solid fa-user"></i> Henry Ford</h5>
+                                         
+                                        </div>
+                                    </div>
+                                    <div class="specifications-div">
+                                        <div class="language specifications">English</div>
+                                        <div class="level specifications">Beginner</div>
+                                        <div class="duration specifications">30 Minutes</div>
+                                        <div class="dateAndTime specifications">15:00, 1/3/2024</div>
+                                    </div>
+                                    <div class="req-final-status rejected">Rejected</div>
+                                </div>
+    
+                                <div class="result-cell">
+                                    
+                                    <div class="acc-info">
+                                        <img class="result-img" src="femaleIcon3.png">
+                                        <div class="more-info">
+                                         <h5><i class="fa-solid fa-user"></i> Nina Grace</h5>
+                                        </div>
+                                    </div>
+                                    <div class="specifications-div">
+                                        <div class="language specifications">English</div>
+                                        <div class="level specifications">Beginner</div>
+                                        <div class="duration specifications">30 Minutes</div>
+                                        <div class="dateAndTime specifications">15:00, 1/3/2024</div>
+                                    </div>
+                                    <div class="req-final-status accepted">Accepted</div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+        
+    
+
+                
     
 
          </main>

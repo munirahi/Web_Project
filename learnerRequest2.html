@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>learnerRequest2</title>
+        <title>Learner Request</title>
         <link rel="stylesheet" href="learnerRequest2.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="header2.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/59189109f7.js" crossorigin="anonymous"></script>   
     </head>
@@ -10,17 +12,28 @@
     <body>
         <header id="header">
             <div id="header div">
-            <nav class="fixed-top">
+            <nav class="fixed-top" id="main-nav">
                 <ul id="ul1">
                     <li><!--div class="header-logo"-->LINGUIST<!--/div--></li>
-                    <li>Home</li>
-                    <li>Sessions</li>
-                    <li>Requests</li>
-                    <li>Rate and Review</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sessions</a></li>
+                    <li><a href="#">Requests</a></li>
+                    <li><a href="#">Rate and Review</a></li>
+                    <li><a href="#">Support</a></li>
                 </ul>
                 <ul id="ul2">
-                    <li id="msgs li">Messages</li>
-                    <li id="acnt li">Account</li>
+                    <!--li id="msgs li">Messages</li-->
+                    <li id="acnt li">
+                        <nav id="account-nav"><img src="account.jfif" id="account-img">
+                            <ul>
+                                <li class="account-list"><a href="#"><div class="circle"></div>View Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Edit Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Delete Account</a></li>
+                                <li class="account-list"><a href="#"><div class="circle"></div>Log Out</a></li>
+                            </ul>
+
+                        </nav>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -34,41 +47,54 @@
             <div class="request_div inner-div">
                 <h5 id="new-req-header">Create a New Request!</h5>
                 <form>
-                    <fieldset class="fs">
-                        <!--legend>Request Specifications</legend-->
-                        <label>Language<br>
-                            <select class="input-box" name="Language">  <!--class="form-control form-control-sm"-->
-                                <option></option>
-                                <option>English</option>
-                                <option>Spanish</option>
-                                <option>French</option>
-                                <option>Arabic</option>
-                            </select>
-                        </label>
-
-                        <label name="level">Level<br>
-                            <select class="input-box" name="level">
-                                <option></option>
-                                <option>Beginner</option>
-                                <option>Intermediate</option>
-                                <option>Advanced</option>
-                            </select>
-                        </label>
-
-                        <label>Duration<br>
-                            <select class="input-box" name="Duration">
-                                <option></option>
-                                <option>10 Minutes</option>
-                                <option>20 Minutes</option>
-                                <option>30 Minutes</option>
-                                <option>60 Minutes</option>
-                            </select>
-                        </label>
-
-                        <label>Date and Time<br>
-                            <input class="input-box" type="datetime-local">
-                        </label>
-                        <button id="go-btn">Go!</button>
+                    <fieldset>
+                        <div class="fieldset-container">
+                        <div class="select-container">
+                            <label>Language<br>
+                                <div class="selectWrapper">
+                                    <select class="input-box" name="Language">  <!--class="form-control form-control-sm"-->
+                                        <option></option>
+                                        <option>English</option>
+                                        <option>Spanish</option>
+                                        <option>French</option>
+                                        <option>Arabic</option>
+                                    </select>
+                                </div>
+                            </label>
+    
+                            <label name="level">Level<br>
+                                <div class="selectWrapper">
+                                    <select class="input-box" name="level">
+                                        <option></option>
+                                        <option>Beginner</option>
+                                        <option>Intermediate</option>
+                                        <option>Advanced</option>
+                                    </select>
+                                </div>
+                            </label>
+    
+                            <label>Duration<br>
+                                <div class="selectWrapper">
+                                    <select class="input-box" name="Duration">
+                                        <option></option>
+                                        <option>10 Minutes</option>
+                                        <option>20 Minutes</option>
+                                        <option>30 Minutes</option>
+                                        <option>60 Minutes</option>
+                                    </select>
+                                </div>
+                            </label>
+    
+                            <label>Date and Time<br>
+                                <div class="selectWrapper">
+                                    <input class="input-box" type="datetime-local">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="btn-container">
+                            <button class="selectWrapper" id="go-btn">Go!</button>
+                        </div>
+                    </div>
                     </fieldset>
                 </form>
 
@@ -80,7 +106,7 @@
                             
                             
                             <div class="acc-info"> <!--row-->
-                                <img class="result-img" src="cat.jpg"> <!--column1-->
+                                <img class="result-img" src="maleIcon.png"> <!--column1-->
                                 <div class="more-info">
                                     <h6><i class="fa-solid fa-user"></i> Mason Bell <i class="fa-solid fa-star"></i> 4 <i class="fa-solid fa-dollar-sign"></i> 45</h6>
                                    <h6 id="categories">English | Advanced</h6>
@@ -98,7 +124,7 @@
                         <div class="result-cell">
                 
                             <div class="acc-info">
-                                <img class="result-img" src="cat.jpg">
+                                <img class="result-img" src="femaleIcon2.png">
                                 <div class="more-info">
                                  <h6><i class="fa-solid fa-user"></i> Cath Roberts <i class="fa-solid fa-star"></i> 4.5 <i class="fa-solid fa-dollar-sign"></i> 50</h6>
                                  <h6 id="categories">Spanish | Intermediate</h6>
@@ -115,7 +141,7 @@
                         <div class="result-cell">
                             
                             <div class="acc-info">
-                                <img class="result-img" src="cat.jpg">
+                                <img class="result-img" src="femaleIcon3.png">
                                 <div class="more-info">
                                  <h6><i class="fa-solid fa-user"></i> Nina Grace <i class="fa-solid fa-star"></i> 5 <i class="fa-solid fa-dollar-sign"></i> 40</h6>
                                  <h6 id="categories">French | Beginner</h6>
@@ -138,63 +164,73 @@
                 <div class="inner-status">
                     <div class="status-cell">
                         <div class="acc-info">
-                            <img src="cat.jpg">
+                            <img src="maleIcon3.png">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Henry Ford</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status" id="accepted">Accepted</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>
                     </div>
 
                     <div class="status-cell">
                         <div class="acc-info">
-                         <img src="cat.jpg">
+                         <img src="femaleIcon2.png">
                          <div class="status-info">
                             <h6><i class="fa-solid fa-user"></i> Nina Grace</h6>
-                            <h6 class="status">Pending</h6>
+                            <h6 class="status" id="pending">Pending</h6>
+                            <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                          </div>
                         </div>
                     </div>
 
                     <div class="status-cell">
                         <div class="acc-info">
-                            <img src="cat.jpg">
+                            <img src="femaleIcon3.png">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Cath Roberts</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="rejected">Rejected</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
 
                     <div class="status-cell">
                         <div class="acc-info">
-                            <img src="cat.jpg">
+                            <img src="maleIcon.png">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Mason Bell</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="pending">Pending</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
 
                     <div class="status-cell">
                         <div class="acc-info">
-                            <img src="cat.jpg">
+                            <img src="maleIcon2.png">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Drew Lawrence</h6>
-                               <h6 class="status">Pending</h6>
+                               <h6 class="status"id="pending">Pending</h6>
+                               <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
                             </div>
                            </div>  
                     </div>
 
                     <div class="status-cell">
                         <div class="acc-info">
-                            <img src="cat.jpg">
+                            <img src="femaleIcon3.png">
                             <div class="status-info">
                                <h6><i class="fa-solid fa-user"></i> Rosanna Howard</h6>
-                               <h6 class="status">Pending</h6>
-                               <h6 class="options">Edit Cancel</h6>
-                            </div>
-                           </div>  
+                               <h6 class="status" id="pending">Pending</h6>
+                                <button class="edit">Edit</button>
+                                <button class="cancel">Cancel</button>
+                        </div>  
                     </div>
 
                     
@@ -204,13 +240,72 @@
             </div>
         </div>
            
-            <!--p>
-                <br>s<br>
-                s<br>s<br>
-                s<br>
-                s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>s<br>
-            </p-->
          </main>
+
+         <div class="content">
+            <!-- add yours here -->
+                </div>
+                <footer>
+                  <div class="main-content">
+                    <div class="left box">
+                      <h2>About us</h2>
+                      <div class="content">
+                        <p> Embark on a linguistic journey with linguist. Connect with native speakers worldwide,
+                             hone your language skills through immersive experiences, and unlock new cultures from the comfort of your home.</p>
+                        <div class="social">
+                          <a href="#"><span class="fab fa-facebook-f"></span></a>
+                          <a href="#"><span class="fab fa-twitter"></span></a>
+                          <a href="#"><span class="fab fa-instagram"></span></a>
+                          <a href="#"><span class="fab fa-youtube"></span></a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="center box">
+                      <h2>Address</h2>
+                      <div class="content">
+                        <div class="place">
+                          <span class="fas fa-map-marker-alt"></span>
+                          <span class="text">Riyadh, KSA</span>
+                        </div>
+                        <div class="phone">
+                          <span class="fas fa-phone-alt"></span>
+                          <span class="text">+966-505432100</span>
+                        </div>
+                        <div class="email">
+                          <span class="fas fa-envelope"></span>
+                          <span class="text">content@linguist.com</span>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <div class="right box">
+                      <h2>Contact us</h2>
+                      <div class="content">
+                        <form action="#">
+                          <div class="email">
+                            <div class="text">Email <span class="required">*</span></div>
+                            <input type="email" required>
+                          </div>
+                          <div class="msg">
+                            <div class="text">Message <span class="required">*</span></div>
+                            <textarea rows="2" cols="25" required></textarea>
+                          </div>
+                          <div class="btn">
+                            <button type="submit">Send</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bottom">
+                    <section>
+                      <span class="credit">Created By <a href="#">linguist</a> | </span>
+                      <span class="far fa-copyright"></span><span> 2024 All rights reserved.</span>
+                    </section>
+                  </div>
+                </footer>
+              
     </body>
 </html>
 
