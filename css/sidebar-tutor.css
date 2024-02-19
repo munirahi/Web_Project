@@ -19,7 +19,6 @@ yellow in dark background :#CDB309
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: #d9d9d9;
     padding: 20px;
     margin: 10px;
     box-sizing: border-box;
@@ -27,7 +26,7 @@ yellow in dark background :#CDB309
 }
 
 .sidebar-card {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
@@ -72,6 +71,9 @@ yellow in dark background :#CDB309
 
 .stats li span:last-child {
     color: #999;
+}
+#profile-settings{
+color: #173A76;
 }
 .card-body-profile img {
     width: 35%; /* Adjust image size as needed */
