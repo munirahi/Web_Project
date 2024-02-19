@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+     
+    background: linear-gradient(rgb(43 67 219),transparent);
+  height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(3, 17, 103);
+}
+
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      text-decoration: none;
+    color: #0b1762;
+    text-align: center;
+    padding: 14px 16px; /* to make space between the items*/
+    font-size: 17px;
+  }
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+    font-family: cursive;
+    padding-left: 20px;
+}
+.icons {
+    display: flex;
+}
+.icons a {
+    color:rgb(3, 17, 103);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.session {
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 20px;
+    background: rgb(3, 17, 103);
+    color: white;
+    width: 90%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.session:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+}
+.session-content {
+    transition: opacity 0.3s ease;
+}
+.session:hover .session-content {
+    opacity: 1;
+}
+.session-content h2 {
+    margin: 0 0 10px;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+button {
+    height: 40px;
+    width: auto;
+    border: none;
+    outline: none;
+    background: #CDB309;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+    
+}
+.video-menu {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping to new lines */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+}
+
+.video {
+    margin-right: 20px; /* Adjust spacing between videos */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 300px; /* Set the width of the video container */
+    height: 250px; /* Set the height of the video container */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    border-radius: 30px;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* Adjust the size of the play icon */
+    height: 50px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/flat-design-multimedia-set-2/24/btn-blue-play-512.png'); /* Replace 'play-icon.png' with the path to your play icon image */
+    background-size: cover;
+}
+/*for upcoming buttons*/
+
+
+.buttons button:hover {
+    background-color: #bda509 !important; /* Change background color on hover */
+}
+.buttons button.notify {
+    background: #ceb309;
+    border: none;
+    font-size: 14px;
+}
+
+.buttons button.cancel {
+    background: #CDB309;
+    border: none;
+    font-size: 14px;
+}
+
+.buttons button.reschedule {
+    background: #ceb309;
+    border: none;
+    font-size: 14px;
+}
+.buttons button.join {
+    background: #ceb309;
+    border: none;
+    font-size: 14px;
+    width: 20%;
+}
+.buttons button.rec {
+    background: #CDB309;
+    border: none;
+    font-size: 14px;
+    justify-content: center;
+}
+
+
+.card {
+    margin-right: 20px; 
+    width: 300px;
+background-color: white;
+border-radius: 20px;
+}
+
+.card-content {
+    padding: 20px;
+  color: #0b1762;
+    border-radius: 5px; 
+ 
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Add subtle lift effect on hover */
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+    background-color: #f4e7e7b0; /* Change background color on hover */
+}
+.profile {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd; /* Add border bottom */
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Make profile image round */
+    margin-right: 20px;
+}
+
+.profile h3 {
+    margin: 0;
+    color: #0b1762;
+}
