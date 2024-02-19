@@ -57,11 +57,13 @@ p{
     padding: 2cm;
     color: rgb(255, 255, 255);    
 }
-button {
-    background-color:rgb(23, 58, 118);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
+button {   
+    background-color: #CDB309;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
 }
 .stars {
     font-size: 30px;
