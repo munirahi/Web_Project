@@ -19,32 +19,33 @@ li{
     padding: 15px;
     text-align: center;
     float: inline-start;
-    color: rgb(46,77,131);  
+    color: rgb(46,77,131);
+    
 }
 
 li a{
     text-decoration: none;
-    color: rgb(46,77,131);
+    color: aliceblue;
+    /*color: rgb(46,77,131);*/
 
 }
 
-#msgs li{
-    float: right;
-}
-li:hover{
-    text-decoration:underline;
+
+ #ul1 li a:hover{
+    color: rgb(144, 155, 164);
 }
 
 
 
 #main-nav{
-    background-color:rgb(23,58,118);
-    background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);
-    height: 100px;
+    background-color:#2E4D83/*rgb(23,58,118)*/;
+    background: lrgba(106, 137, 237, 0.6);
+    height: 60px;
 }
 
 #main-nav li{
     cursor: pointer;
+    color: aliceblue;
 }
 
 #account-nav ul{
@@ -52,37 +53,24 @@ li:hover{
     list-style: none;
 }
 
-#account-nav:hover{
-    background-color: rgba(106, 137, 237, 0.6);
-    padding: 0px;
+#account-nav:hover{  
     text-decoration: none;
-    transition: .5s;
 }
 
 #account-nav:hover ul{
     display: flex;
     flex-direction: column;
-    transition: .5s;
+    background-color: #2E4D83;
     cursor: pointer;
-    align-items: flex-start;
-    width: 135px;
-    background-color: rgba(106, 137, 237, 0.6);
+    width: 155px;
+    border-radius: 20px;
     margin: 0px;
     padding: 0px;
+    margin-top: 5px;
 }
 
 
-#down-triangle {
-	float: right;
-	width: 0; 
- 	height: 0;
- 	margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 3px;
- 	border-top: 7px solid rgba(80, 102, 176, 0.6);
-  border-left: 7px solid transparent; 
-  border-right: 7px solid transparent; 
-}
+
 
 .circle {
 	float: left;
@@ -91,9 +79,31 @@ li:hover{
  	height: 10px; 
  	margin-top: 8px;
     margin-right: 3px;
-  border: 3px solid rgba(80, 102, 176, 0.6);
+  border: 3px solid aliceblue;
   -moz-border-radius: 100%; 
   -webkit-border-radius: 100%; 
   border-radius: 100%;
+}
+
+#account-img{
+    height: 35px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.account-list{
+    width: 155px;
+    border-radius: 20px;
+    color: aliceblue;   
+}
+
+.account-list a, .account-list:hover a{
+    color: aliceblue;   
+}
+
+.account-list:hover{
+    background-color: #233960;
+    text-decoration: none;
+    color: aliceblue;
 }
 

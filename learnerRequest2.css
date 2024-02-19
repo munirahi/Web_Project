@@ -1,134 +1,72 @@
-*{
-    
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    
-}
-/*
-nav{
-    position: sticky;
-    top: 0px;
-}
-  ul{
-    list-style-type: none;
-    background-color: antiquewhite;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    position: sticky;
-    
-}
 
- li{
-    background-color: antiquewhite;
-    float:left;
-    display: block;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    position: sticky;
-
-    }
-
-     li:hover{
-        /*background-color: rgb(195, 132, 132);
-        text-decoration: underline;
-    }*/
-
-   .containing-div{
-    display: flex;
-   }
-
-    #ul1{
-        list-style: none;
-        margin: 0px;
-        padding: 0px;
-        top: 0px;
-        position: sticky;
-        float: left;
-    }
-    #ul2{
-        margin: 0px;
-        padding: 0px;
-        top: 0px;
-        position: sticky;
-        float: right;
-
-    }
-    li{
-        display: block;
-        padding: 15px;
-        text-align: center;
-        float: inline-start;
-        color: rgb(46,77,131);
-        
-    }
-    #msgs li{
-        float: right;
-    }
-    li:hover{
-        text-decoration:underline;
-    }
 
     main{
         padding: 50px;
         padding-top: 90px;
         background-color: #d9d9d9;
-        height: 800px; /*we may delete this if we put in the footer*/
+        
     }
 
-    nav{
-        background-color:rgb(23,58,118);
-        background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);
-    }
+  .containing-div{
+    display: flex;
+  }
 
     #new-req-header{
         margin-bottom: 20px;
     }
 
     .request_div{
-        margin-top: 20px; /*doesnt work*/
+        
         background-color: #173A76;
         width: 70%;
         border: 3px solid rgb(0, 66, 128);
         padding: 20px;
-        margin: 10px;
-        margin-left: 1px;
         border-radius: 10px;
         overflow: hidden;
         color: #d9d9d9;
         box-sizing: border-box;
-      
- 
-        grid-column-start: 1;
-        grid-column-end: 2;
     }
+
+    .fieldset-container{
+        display: flex;
+       align-items:center;
+    }
+
+    .select-container{
+        flex: 1;
+    }
+
+    
 
     .input-box{
         padding: 2px;
         border-radius: 8xp;
         width: 160px;
         height: 30px;
+        border: none;
+        background-color: #d9d9d9;
     }
 
     form{
         margin-bottom: 15px;
     }
 
+    .selectWrapper{
+        border-radius: 10px;
+        display:inline-block;
+        overflow:hidden;
+    }
+
+
     #go-btn{
         width: 60px;
         border: none;
-        border-radius: 5px;
+        border-radius: 20px;
         background-color: #CDB309 ;
-        box-shadow: 10px #aaaaaa; /*doesnt work*/
+        padding: 4px 0px;
         margin-left: 3px;
-        overflow: hidden;
-        perspective: 1px; 
+        margin-top: 16px;
+        
     }
     #go-btn:hover{
         background-color: rgb(228, 199, 11);
@@ -187,16 +125,25 @@ nav{
         border-radius: 5px;
         overflow-x: auto;
         white-space: nowrap;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;
       }
-      .result::-webkit-scrollbar {
-        display: none;
-      }
+
+      .result::-webkit-scrollbar{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    
+    .result::-webkit-scrollbar-thumb{
+        border-radius: 5rem;
+        background-color:rgba(217, 217, 217, 0.678) ;
+        visibility: hidden;
+    }
+    .result:hover::-webkit-scrollbar-thumb{  
+        visibility: visible;
+    }
       
 
        #result-header{
-        margin-top: 20px;
+        
         margin-bottom: 20px;
       }
 
@@ -210,7 +157,7 @@ nav{
         background-color: #CDB309;
         border: none;
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 20px;
         width: 60%;
       }
 
@@ -219,13 +166,13 @@ nav{
     }
 
     .status-div{
-        flex: 1;
+        /*flex: 1;*/
         background-color: #173A76;
-        width: 25%;
+        width: 27%;
         height: 450px;
         border-radius: 10px;
         padding: 20px;
-        margin: 10px;
+        
         margin-left: 16px;
     }
 
@@ -237,19 +184,30 @@ nav{
         background-color: #2E4D83;
         border-radius: 10px;
         height: 375px;
-        overflow-x: hidden;
         overflow-y: auto;
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;
+        overflow-x: hidden;
     }
 
-    .inner-status::-webkit-scrollbar {
-        display: none;
-      }
+    .inner-status::-webkit-scrollbar{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    
+    .inner-status::-webkit-scrollbar-thumb{
+        border-radius: 5rem;
+        background-color:rgba(217, 217, 217, 0.678) ;
+        visibility: hidden;
+    }
+    .inner-status:hover::-webkit-scrollbar-thumb{
+        
+        visibility: visible;
+    }
+
+    
 
     .status-cell{
         background-color: #d9d9d9;
-        color: #173A76;
+        color: black;
         border-radius: 10px;
         margin: 10px;
 
@@ -261,7 +219,7 @@ nav{
 
 
     .status-cell img{
-        flex: 20%;
+        flex: 20%; 
         width: 20%;
         height: 20%;
         margin-right: 5px;
@@ -270,8 +228,12 @@ nav{
     }
     
     .status-info{
-        flex: 70%;
+        flex: 70%; 
         margin-top: 7px;
+    }
+
+    .status-cell img, .status-info{
+        display: inline-block;
     }
 
     .inner-div{
@@ -281,28 +243,52 @@ nav{
     .status{
         border-radius: 10px;
         padding: 5px;
-        background-color: #CDB309;
-        width: 70px;
+        width: auto;
         text-align: center;
-        display: flex;
-    }
-
-    .options{
-        color: #aaaaaa;
-        text-align: center;
+        margin: 10px 0px;
         
     }
 
-
-   /* .grid-container{
-        display: grid;
-    }*/
-
-    .fs{
-        border: 10px black;
+    #accepted{
+        background-color: rgba(82, 123, 82, 0.51);
+        
     }
 
-    /*select{
-        max-width: 90%;
-    }*/
+    #pending{
+        background-color: #918e7b;
+        
+    }
+
+    #rejected{
+        background-color: rgba(179, 80, 80, 0.514);
+        
+    }
+
+   
+    .edit, .cancel{
+        display: inline-block;
+        position: relative ;
+        width: 74px;
+        color: #d9d9d9;
+        background-color: #2E4D83;
+        border: none;
+        border-radius: 20px;
+        margin-bottom:  5px;
+    }
+
+    .cancel{
+        background-color: rgb(176, 57, 57);
+    }
+
+     .edit:hover{
+        background-color: #173A76;
+    }
+    .cancel:hover{
+        background-color: rgb(160, 22, 22);
+    }
+
+    
+
+
+   
 
