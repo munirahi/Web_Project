@@ -11,14 +11,7 @@ yellow :rgb(228, 199, 11) ******** prime
 yellow in dark background :#CDB309
 
 */
-/* *{
-    margin: 0;
-    padding: 0;
-  
-    color: #d9d9d9;
-    box-sizing: border-box;
-    font-family:  sans-serif;
-  } */
+
   .required{
       color:red;
   }
@@ -180,6 +173,12 @@ yellow in dark background :#CDB309
   }
   .bottom section a:hover{
     text-decoration: underline;
+  }
+
+  .find-more{
+text-decoration: none;
+color: #CDB309;
+
   }
   @media screen and (max-width: 900px) {
     footer{

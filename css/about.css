@@ -45,7 +45,9 @@ background-size: cover;
 span{
 
     font-weight: 900 ;
-    /* color: rgb(228, 199, 11); */
+}
+.lengo{
+    color: rgb(228, 199, 11);
 }
 .about-section{
     padding: 10px;
@@ -114,7 +116,10 @@ ul{
    margin-bottom: 30px;
 
 }
-
+.title{
+font-size: larger;
+    font-weight: 600;
+}
 
 .about-conteniar{
 align-content: center;
