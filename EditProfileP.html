@@ -10,22 +10,25 @@
 </head>
 <body>
     <header id="header">
-        <div id="header div">
+        <div id="header-div">
         <nav class="fixed-top" id="main-nav">
             <ul id="ul1">
-                <li><!--div class="header-logo"-->LINGUIST<!--/div--></li>
-                <li><a href="homepagel.html">Home</a></li>
-                <li><a href="#">Sessions</a></li>
-                <li><a href="learnerRequest2.html">Requests</a></li>
-                <li><a href="#">Rate and Review</a></li>
+                <li><img src="linguistBlue.jpg" alt="LINGUIST logo"  id="logo-img"></li>
+                <li class="list1-item"><a href="tutor_Home_page.html" class="list1-item">Home</a></li>
+                <li class="list1-item"><a href="SESSionTutor.html">Sessions</a></li>
+                <li class="list1-item"><a href="tutorReq.html">Requests</a></li>
+                <li class="list1-item"><a href="RateAndReview.html">Rate and Review</a></li>
+                <li class="list1-item"><a href="Supports.html">Support</a></li>
             </ul>
             <ul id="ul2">
-                <li id="msgs li">Messages</li>
+                
                 <li id="acnt li">
-                    <nav id="account-nav">Account<div id="down-triangle"></div>
+                    <nav id="account-nav"><img src="account.jfif" id="account-img">
                         <ul>
-                            <li><a href="#"><div class="circle"></div>Edit Account</a></li>
-                            <li><a href="#"><div class="circle"></div>Log Out</a></li>
+                            
+                            <li class="account-list"><a href="EditProfileP.html"><div class="circle"></div>Edit Profile</a></li>
+                            
+                            <li class="account-list"><a href="#"><div class="circle"></div>Log Out</a></li>
                         </ul>
 
                     </nav>
@@ -34,7 +37,7 @@
         </nav>
     </div>
      </header>
-     <div class="main">
+      <div class="main">
        <h3> Account / Edit profile</h3>
     <form class="edit-learner">
         <h2>Edit Profile</h2>
@@ -42,10 +45,10 @@
         <div class="wrapper">
                    
             <div class="image">
-            <img src="blank-profile-picture-973460_960_720 copy.png">
+            <img src="blank-profile-picture-973460_960_720 copy.png" alt="Uplaod pic">
             <input type="file" accept="Image/jpeg, Image/png, Image/jpg" id="file-choose">
              </div>
-             <h3>Profile Photo</h3>
+             <h3>Change Picture</h3> <!-- update -->
          </div>
                 <label for="firstname">First name</label>
                 <input type="text" class="input-field"id="firstname" name="firstname" value="Ahmed">
@@ -63,25 +66,25 @@
             <label for="email">Email</label>
             <input type="text"class="input-field" id="email" name="email" value="AhmedK11@gmail.com"> <!-- type email?-->
             <label for="password">Password</label>
-            <input type="password"class="input-field" id="password" name="password">
+            <input type="password"class="input-field" id="password" name="password" value="aa123211">
             <label for="phonenumber">Phone Number</label>
             <input type="text" class="input-field" id="phonenumber" name="phonenumber" value="0503591845">
             <label for="city">City</label>
             <input type="text" class="input-field" id="city" name="city" value="Riyadh"> <!-- choices?-->
             <label for="bio">Bio</label>
-            <textarea  class="input-field" id="bio" name="bio" rows="3"  value="b"> </textarea>
+            <textarea  rows="5" class="input-field" id="bio" name="bio" ></textarea>
+            
             <button type="submit" class="submit-btn" id="save">Save Changes</button>
-            <button type="submit" class="submit-btn" id="delete">Delete Account</button>  <!-- maybe a script?-->
+            <button type="submit" class="submit-btn" id="delete">Delete Account</button>  
     </form>
 </div>
-
 <footer>
     <div class="main-content">
       <div class="left box">
         <h2>About us</h2>
         <div class="content">
-          <p> Embark on a linguistic journey with lenguest. Connect with native speakers worldwide,
-               hone your language skills through immersive experiences, and unlock new cultures from the comfort of your home.</p>
+          <p> Embark on a linguistic journey with LINGUIST. Connect with native speakers worldwide,
+               hone your language skills through immersive experiences, and unlock new cultures from the comfort of your home.<a class="find-more" href="About_us_page.html">Find more</a></p>
           <div class="social">
             <a href="#"><span class="fab fa-facebook-f"></span></a>
             <a href="#"><span class="fab fa-twitter"></span></a>
@@ -104,7 +107,8 @@
           </div>
           <div class="email">
             <span class="fas fa-envelope"></span>
-            <span class="text">content@lenguest.com</span>
+            <span class="text"><a href="mailto:content@linguist.com"></a>
+              content@linguist.com</span>
           </div>
         </div>
       </div>
@@ -112,7 +116,7 @@
       <div class="right box">
         <h2>Contact us</h2>
         <div class="content">
-          <form action="#">
+          <form action="#" method="post">
             <div class="email">
               <div class="text">Email <span class="required">*</span></div>
               <input type="email" required>
@@ -130,7 +134,7 @@
     </div>
     <div class="bottom">
       <section>
-        <span class="credit">Created By <a href="#">lenguest</a> | </span>
+        <span class="credit">Created By <a href="main.html">linguist</a> | </span>
         <span class="far fa-copyright"></span><span> 2024 All rights reserved.</span>
       </section>
     </div>
