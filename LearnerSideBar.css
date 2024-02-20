@@ -1,4 +1,7 @@
+*{
+      font-family: sans-serif;
 
+}
 .sidebar {
     position: relative;
     top: 0;
@@ -26,8 +29,10 @@
     width: 20%;
     height: 20%;
     border-radius: 100%;
+    
     }
-
+    .flag{
+        width: 25px;}
 .card-body-profile {
     padding: 20px;
     align-items: center;
@@ -80,3 +85,5 @@ color: #173A76;
     margin: 0%;
   
 }
+
+  

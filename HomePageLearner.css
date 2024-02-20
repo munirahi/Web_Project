@@ -1,5 +1,6 @@
 *{
-    font-family: sans-serif;
+  font-family: sans-serif;
+}
 .backg{
   
     background-image: url(bb.png);
@@ -8,6 +9,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    background-attachment:fixed;
 
    }
     main{
@@ -141,10 +143,10 @@
         background-color: rgb(228, 199, 11);
     }
     .be-ready button{
-        background-color: #d3d7df;
+        background-color: rgba(228, 199, 11, 0.466);
         border: none;
         padding: 10px;
-        border-radius: 30px;
+        border-radius: 10px;
         width: 60%;
       color:#173A76;
         text-align: center;
@@ -209,10 +211,22 @@ h1{
     position:relative;
     text-align: center;
     top: 1px;
-    color:rgb(255, 255, 255); 
+
     padding: 20px;
+    margin: 5px;
+    color: #d9d9d9;
   
     
+}
+h4{
+  font-weight: bolder;
+  position:relative;
+  text-align: center;
+  top: 1px;
+
+  padding: 20px;
+  margin: 5px;
+  color:#173A76;
 }
 
 
@@ -221,8 +235,8 @@ p{
      position:relative;
         text-align: center;
         top: 1px;
-        color:#d9d9d9; 
-        font-size:large;
+        color:#173A76; 
+        font-weight: bolder;
 }
 
 
