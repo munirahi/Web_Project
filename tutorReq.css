@@ -3,7 +3,8 @@ main{
     padding: 50px;
     padding-top: 90px;
     background-color: #d9d9d9;
-     /*we may delete this if we put in the footer*/
+    background-image: url(bb.png);
+    background-size: cover;
 }
 
 
@@ -21,7 +22,7 @@ main{
     margin-left: 1px;
     border-radius: 30px;
     overflow: hidden;
-    color: #d9d9d9;
+    color: #ffffff;
     
 }
 
@@ -52,7 +53,7 @@ form{
     
   }
   .result-cell {
-    background-color: #d9d9d9;
+    background-color: #ffffff;
     color: black;
     white-space: wrap;
     border-radius: 10px;
@@ -132,7 +133,7 @@ form{
 
   .accept-req-btn button{
     background-color: rgb(82, 123, 82);
-    color: #d9d9d9;
+    color: #ffffff;
   }
   .accept-req-btn button:hover{
     background-color: rgb(59, 91, 59);
@@ -140,7 +141,7 @@ form{
 
   .reject-req-btn button{
     background-color: rgb(176, 57, 57);
-    color: #d9d9d9;
+    color: #ffffff;
   }
   .reject-req-btn button:hover{
     background-color: rgb(121, 58, 58);
@@ -164,7 +165,7 @@ form{
   }
 
   .level, .language, .duration, .dateAndTime{
-    background-color: #cdb3098e;
+    background-color: rgba(228, 199, 11, 0.466);
     border-radius: 10px;
     padding: 5px;
     border-color: #CDB309;
@@ -174,9 +175,7 @@ form{
 
   }
 
-  .language, .duration{
-    margin-left: 10px;
-  }
+  
 
   .req-final-status{
     text-align: center;
