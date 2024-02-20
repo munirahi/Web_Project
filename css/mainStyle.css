@@ -9,6 +9,9 @@ a{
     text-decoration: none;
     
 }
+nav a:hover{
+  color: rgb(144, 155, 164);
+}
 ul{
     list-style: none;
     
