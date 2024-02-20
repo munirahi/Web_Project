@@ -13,25 +13,34 @@ ul{
     list-style: none;
     
 }
+#logo-img{
+  margin-top: -8px;
+  border-radius: 100px;
+  height: 40px;
+
+}
+
 .bar{
    
     top: 0;
     left: 0;
-    position: fixed;
-    background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);  
+    position:relative;
+    background: #2E4D83;
     display: flex;
     width: 100%;
+    height: 60px;
     justify-content: space-between;
     padding: 20px;
     color: black;
    
 }
+
 .bar a{
     color:white;
 }
-.bar ul li .link{
+.bar ul li .link:hover{
   
-    color:rgb(23, 58, 118);
+  color: rgb(144, 155, 164);
    
 }
 .links{
@@ -39,8 +48,11 @@ ul{
     align-items: center;
   
 }
+.bar a:hover{
+  color: rgb(144, 155, 164);
+}
 .link:hover , .active{
-    border-bottom: 2px solid rgb(23, 58, 118);
+   color:  rgb(144, 155, 164);
 }
 
 .links li{
@@ -49,7 +61,7 @@ ul{
 header{
     width: 100%;
     height: 100%;
-    background-image: url(bb.png);
+    background-image: url(images/bb.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -60,8 +72,9 @@ header{
 }
  header img{
     position: relative;
-    
+    height: 820px;
     mix-blend-mode: color-burn;
+    margin-top: -40px;
 }
 .header-content{
     
@@ -88,11 +101,13 @@ header{
 .ctn{
     padding:8px 15px ;
     background:rgb(228, 199, 11) ;
-    border-radius: 30px;
+    border-radius: 20px;
     color: whitesmoke;
    
 }
-
+.ctn:hover{
+  color: rgb(144, 155, 164);
+}
 .service{
     height: 850px;
     display: flex;
@@ -106,7 +121,7 @@ header{
     height: 450px;
     margin: 40px;
     background: rgb(23, 58, 118);
-    border-radius: 10px;
+    border-radius: 30px;
     margin-bottom: 5%;
     padding: 60px 30px;
     box-sizing: border-box;
@@ -125,11 +140,10 @@ header{
     top: -100px; /* Position image above card top */
     left: 50%; /* Center image horizontally */
     transform: translateX(-50%); /* Fine-tune horizontal centering */
-    width: 100%; /* Make image responsive (may need adjustments) */
+    width: 90%; /* Make image responsive (may need adjustments) */
     max-height: 200px; /* Set a maximum height for consistency */
-    border-radius: 10px; /* Apply same border-radius as card */
-    border-color: #000000;
-    border-width: 50px;
+    border-radius: 40px; /* Apply same border-radius as card */
+   
     
   }
 
@@ -154,10 +168,19 @@ p{
 }
 
 footer{
-  position: relative;
-  bottom: 0px;
+    
+  padding: 0;
+  position: relative ;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
   width: 100%;
   background: rgb(23, 58, 118) ;
+ 
+  font-family:  sans-serif;
+
+  /* text color */
+  color: #d9d9d9;
  
 }
 .main-content{ 
@@ -212,6 +235,7 @@ footer{
   font-size: 18px;
   border-radius: 5px;
   transition: 0.3s;
+  color: #d9d9d9;
 }
 .left .content .social a span:hover{
   background: #CDB309;
@@ -227,6 +251,7 @@ footer{
   transition: 0.3s;
   cursor: pointer;
 }
+/* icon hover */
 .center .content .fas:hover{
   background: #CDB309;
 }
@@ -251,6 +276,7 @@ footer{
   width: 100%;
   font-size: 1.0625rem;
   background: #d9d9d9;
+  border-radius: 10px;
   padding-left: 10px;
   border: 2px solid #2E4D83;
   color: #172641;
@@ -265,6 +291,7 @@ footer{
 }
 .right form .btn{
   margin-top: 10px;
+  border-radius: 10px;
 }
 .right form .btn button{
   height: 40px;
@@ -276,6 +303,7 @@ footer{
   font-weight: 500;
   cursor: pointer;
   transition: .3s;
+  border-radius: 10px;
 }
 .right form .btn button:hover{
   background: #2E4D83;
@@ -294,6 +322,12 @@ footer{
 }
 .bottom section a:hover{
   text-decoration: underline;
+}
+
+.find-more{
+text-decoration: none;
+color: #CDB309;
+
 }
 @media screen and (max-width: 900px) {
   footer{
