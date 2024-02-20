@@ -1,9 +1,6 @@
-*{
-    font-family: sans-serif;}
-    
-  .backg{
+.backg{
   
-    background-image: url(../images/bg-image.png);
+    background-image: url(bb.png);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -35,6 +32,8 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  
     
 }
+
+
 .rate img{
 
     flex: 10%;
@@ -54,13 +53,15 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     color: rgb(255, 255, 255);    
 }
-p{
+.pp p{
     position:relative;
     text-align: center;
     padding: 2cm;
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);  
+    align-items: center;  
 }
-button {   
+button {
+    
     background-color: #CDB309;
     border: none;
     padding: 10px;
@@ -68,6 +69,7 @@ button {
     text-align: center;
     align-items: center;
 }
+
 .stars {
     font-size: 30px;
     text-align: center;
@@ -78,7 +80,7 @@ button {
     text-align: center;
    
 }
-textarea {
+.tea textarea {
     width: 90%;
     padding: 10px;
     border-radius: 4px;
