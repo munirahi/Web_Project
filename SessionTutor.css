@@ -50,6 +50,7 @@ body{
     padding: 45px 0px 0px;
     background-image: url(bb.png);
     background-attachment: fixed;
+    background-size: cover;
     
 }
 
@@ -302,7 +303,10 @@ align-content: normal;
     padding: 10px;
     text-decoration: none;
     color: #173A76;
-    width: 100%
+    width: 100%;
+    border: none;
+    margin-top: 7px;
+    margin-left: 5px;
     
 
 }
@@ -316,7 +320,7 @@ color: #173A76;
 width: 100%;
 }
 .enter-btn-current:hover{
-    background-color: green;
+    background-color: #CDB309;
     color: #ffffff;
 }
 .carousel-cell {
@@ -404,7 +408,7 @@ border-radius: 10px;
 margin: 10px;
 display: inline-block;
 width: 250px;
-height: 180px;
+height: fit-content;
 padding-top: 15px;
 
 }
@@ -416,6 +420,15 @@ align-content: flex-start;
 align-items: center;
 padding: 5px;
 
+}
+
+.incard-info{
+    justify-content: center;
+display:flex;
+flex-wrap: wrap;
+align-content: flex-start;
+align-items: center;
+padding: 5px;
 }
 .incard-elements p{
     color: #173A76;
@@ -468,4 +481,20 @@ padding: 5px;
 
 .Upcoming-sessions, .current-sessions-container{
     display: inline-block;
+}
+
+.cancel-btn{
+    text-align: center;
+    background-color:rgb(176, 57, 57) ;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+
+}
+
+.cancel-btn:hover{
+   background-color:  rgb(121, 58, 58);
 }
