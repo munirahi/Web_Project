@@ -5,7 +5,7 @@
 .backg{
   
     
-    background-image: url(bb.png);
+    background-image: url(../images/bg-image.png);
     height: 100%;
     width: 100%;
     background-position: center;
@@ -100,8 +100,7 @@
 p{
      position:relative;
         text-align: center;
-        top: 5px;
-        color:#173A76; 
+        top: 5px; 
         font-size:large;
        padding: 5px;
        
@@ -121,7 +120,9 @@ h1{
     color: #d9d9d9;
 
 }
-
+.box-content p{
+    color: #173A76;
+}
 
 
 .result-img {
