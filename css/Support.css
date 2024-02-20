@@ -24,7 +24,6 @@
     background: rgb(23, 58, 118);
     padding: 20px 20px;
     font-size: medium;
-    text-align: center;
     border-radius: 8px;
   margin: 30px;;
 }
@@ -37,11 +36,12 @@
 }.cqi{
     color:white; 
 }
-.backg{
+
+
+body{
   
-    background-image: url(bb.png);
-    height: 100%;
-    width: 100%;
+   
+    background-image: url(../images/bg-image.png);
     background-position: center;
     background-size: cover;
     position: relative;
