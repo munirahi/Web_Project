@@ -4,7 +4,15 @@
     font-family: sans-serif;
 
 }
-
+body{
+    background-image: url(../images/bg-image.png);
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+    
+}
 #logo-img{
     top:5px;
     left: 20px;
@@ -15,17 +23,14 @@
   
   }
 .hero{
-    
-    background-image: url(bb.png);
     height: 100%;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     position: absolute;
-    
    
-}
+} 
 
 .form-box{
     
