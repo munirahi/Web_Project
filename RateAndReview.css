@@ -1,4 +1,6 @@
-.backg{
+*{
+    font-family: sans-serif;
+  .backg{
   
     background-image: url(bb.png);
     height: 100%;
