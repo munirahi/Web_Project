@@ -7,9 +7,10 @@
 </head>
 <body>
    
-
+  
 
     <div class="hero">
+        <a href="main.html" ><img src="linguistBlue.jpg" alt="LINGUIST logo"  id="logo-img"> </a>
         <div class="form-box">
             
             <div class="button-box">
@@ -27,9 +28,11 @@
                 <input type="password" class="input-field" placeholder="Password" required >
                 
                 <input type="text" class="input-field" placeholder="City" required >
-                <input type="text" class="input-field" placeholder="Location"  >
+                <input type="text" class="input-field" placeholder="Location" >
+                <input type="checkbox" class="checkbox" ><span>I agree to the <a href="#" onclick="termsandconditions()">term & conditions</a></span>
+
                 <button type="submit" class="submit-btn">Sign Up</button>
-                <span> Have an account? <a href="#" onclick="login()">Login</a></span>
+                <span> Have an account? <a href="login.html" onclick="login()">Log in</a></span> <!-- onclick? + update --> 
             
             </form>
         
@@ -51,7 +54,8 @@
             </div>
                 <input type="text" class="input-field"placeholder="Age" required >
                <br><br>
-                <select name="Gender" class="input-field" placeholder="Gender" id="gender">
+                <select name="Gender" class="input-field" placeholder="Gender" id="gender" required>
+                    <option selected value="gender">Gender</option> <!-- if not chosen-->
                     <option value="male">Male</option>
                     <option value="female">Female</option>
                     </select>
