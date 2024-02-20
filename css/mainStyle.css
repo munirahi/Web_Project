@@ -61,7 +61,7 @@ ul{
 header{
     width: 100%;
     height: 100%;
-    background-image: url(images/bb.png);
+    background-image: url(../images/bg-image.png);
     background-position: bottom;
     background-size: cover;
     display: flex;

@@ -37,7 +37,7 @@ yellow in dark background :#CDB309
     font-size: 20px;
 }
 body{
-  background-image:  url(images/bg-image.png);
+  background-image:  url(../images/bg-image.png);
   
 
 background-repeat: no-repeat;

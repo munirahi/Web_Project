@@ -84,10 +84,10 @@ ul{
   
     color:rgb(23, 58, 118);
    
-}header{
+}
+.header-main{
     width: 100vw;
     height: 40vh;
-    background-image: url(../images/bg-image.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
