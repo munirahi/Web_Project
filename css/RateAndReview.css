@@ -59,6 +59,8 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 2cm;
     color: rgb(255, 255, 255);  
     align-items: center;  
+    font-family: sans-serif;
+
 }
 button {
     
@@ -84,20 +86,27 @@ button {
     width: 90%;
     padding: 10px;
     border-radius: 4px;
+    font-family: sans-serif;
+
 }
 .reviews {
     margin-top: 20px;
     text-align: left;
+  
 }
 
  
 .review p {
     margin: 0;
+  font-family: sans-serif;
+
 }
 .last p {
     position:relative;
     text-align: center;
     color: rgb(23, 58, 118);
+     font-family: sans-serif;
+
 
 }
 
@@ -120,16 +129,24 @@ ul{
 }
 .bar ul li .link{
     color:rgb(23, 58, 118);  
+          font-family: sans-serif;
+
 }
 .links{
     display: flex;
     align-items: center;  
+        
+
 }
 
 
 .links li{
     margin: 0 30px;
+    font-family: sans-serif;
+
 }
 .stars p{
     color:  #CDB309;
+    font-family: sans-serif;
+
 }
