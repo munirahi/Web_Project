@@ -12,7 +12,6 @@
     overflow-y: auto;
     width: 100%;
     height: 100%;
-    
 }
 .continer::-webkit-scrollbar{
     width: 0.5rem;
@@ -79,6 +78,9 @@ justify-content: space-evenly;
 .flag{
 width: 25px;
 
+}
+#level{
+width: 25px;
 }
 .Today-sessions{
     display: flex;
@@ -169,7 +171,7 @@ margin: 10px;
 display: flex;
 flex-wrap: wrap;
 align-content: flex-end;
-width: 210px;
+width: 100%;
 height: fit-content;   
 
 }
@@ -217,12 +219,12 @@ width: 100%;
     box-sizing: border-box;
     display: block;
     height: fit-content;
-    width: 200px;
+    width: 100%;
     box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
     margin: 10px;
   }
   .carousel-cell img {
-    width: 100%;
+    width: 35%;
     height: 35%;
     margin: 0 0 10px 0;
   }
@@ -237,26 +239,7 @@ width: 100%;
   }
 
 
-/* remove */
-.sessions-card{
-    background-color: #d9d9d9;
 
-    padding: 0px;
-    border-radius: 10px;
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 30%;
-    height: 70%;   
-
-}
-/* remove maybe */
- .sessions-card img{
-    width: 35%; 
-    height: 35%; 
-    border-radius: 50%; 
-    }
 
 .learner-info{
     display: flex;
@@ -286,7 +269,6 @@ align-items: center;
     
     visibility: visible;
 }
-
 
 
 .week-sesstoin::-webkit-scrollbar{
