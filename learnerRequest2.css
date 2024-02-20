@@ -4,6 +4,8 @@
         padding: 50px;
         padding-top: 90px;
         background-color: #d9d9d9;
+        background-image: url(bb.png);
+        background-size: cover;
         
     }
 
@@ -23,7 +25,7 @@
         padding: 20px;
         border-radius: 10px;
         overflow: hidden;
-        color: #d9d9d9;
+        color: #ffffff;
         box-sizing: border-box;
     }
 
@@ -44,7 +46,7 @@
         width: 160px;
         height: 30px;
         border: none;
-        background-color: #d9d9d9;
+        background-color: #ffffff;
     }
 
     form{
@@ -62,18 +64,17 @@
         width: 60px;
         border: none;
         border-radius: 20px;
-        background-color: #CDB309 ;
+        background-color:  rgb(228, 199, 11) ;
         padding: 4px 0px;
         margin-left: 3px;
         margin-top: 16px;
         
     }
     #go-btn:hover{
-        background-color: rgb(228, 199, 11);
+        background-color: #CDB309;
     }
 
     .result_carousel{
-        background-color: #d9d9d9;
         padding: 50px 0;
         overflow-x: auto;
         white-space: wrap;
@@ -81,7 +82,7 @@
         
       }
       .result-cell {
-        background-color: #d9d9d9;
+        background-color: #ffffff;
         color: black;
         overflow: hidden;
         border-radius: 10px;
@@ -154,7 +155,7 @@
       }
 
       .post-req-btn button{
-        background-color: #CDB309;
+        background-color: rgb(228, 199, 11);
         border: none;
         padding: 5px;
         border-radius: 20px;
@@ -162,7 +163,7 @@
       }
 
       .post-req-btn button:hover{
-        background-color: rgb(228, 199, 11);
+        background-color: #CDB309 ;
     }
 
     .status-div{
@@ -206,7 +207,7 @@
     
 
     .status-cell{
-        background-color: #d9d9d9;
+        background-color: #ffffff;
         color: black;
         border-radius: 10px;
         margin: 10px;
@@ -251,17 +252,25 @@
 
     #accepted{
         background-color: rgba(82, 123, 82, 0.51);
+        font-weight: bold;
         
     }
 
     #pending{
-        background-color: #918e7b;
+        background-color: #cdcbc0;
+        font-weight: bold;
         
     }
 
     #rejected{
-        background-color: rgba(179, 80, 80, 0.514);
+        background-color: rgba(179, 80, 80, 0.514); 
+        font-weight: bold;
         
+    }
+
+    #disabled{
+      display: none;
+
     }
 
    
@@ -269,7 +278,7 @@
         display: inline-block;
         position: relative ;
         width: 74px;
-        color: #d9d9d9;
+        color: #ffffff;
         background-color: #2E4D83;
         border: none;
         border-radius: 20px;
