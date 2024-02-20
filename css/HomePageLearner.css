@@ -1,0 +1,331 @@
+*{
+  font-family: sans-serif;
+}
+.backg{
+  
+    background-image: url(bb.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment:fixed;
+
+   }
+    main{
+        padding: 50px;
+        padding-top: 90px; 
+        margin-top: 20px;
+       
+        /*we may delete this if we put in the footer*/
+    }
+    main img{
+      
+
+            flex: 20%;
+            width: 20%;
+            height: 20%;
+            border-radius: 100%;
+        
+    }
+
+    nav{
+        background-color:rgb(23,58,118);
+        background: linear-gradient(rgba(106, 137, 237, 0.6),transparent);
+    }
+    .box1-content{
+        width: 100vw;
+        height: 0vh;
+        align-items: center;
+       justify-content: center;
+       position: relative;
+        display:flex;
+        border-radius: 30px; 
+         
+    }
+ 
+
+    .request_div{ /*background b*/
+        margin-top: 20px; /*doesnt work*/
+        background-color: #173A76;
+        width: 70%;
+        border: 3px solid rgb(0, 66, 128);
+        margin: 100px;
+        margin-top: 0px;
+        margin-left: 200px;
+        border-radius: 30px;
+        overflow: hidden;
+        color: #d9d9d9;
+        box-sizing: border-box;
+        padding: 5px;
+        margin-top: 150px;
+        
+
+    }
+      .result-cell {     
+        background-color: white;
+        color: black;
+        overflow: hidden;
+        border-radius: 10px;
+        display: inline-block;
+        width: 300px;
+        box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+        margin: 10px;
+        position: relative;
+        border-radius: 10px;
+        height: 400px;
+
+      }
+      .more-info{
+        display: block;
+        flex: 70%;
+        margin-top: 7px;
+        margin-left: 5px;
+        color:#173A76;
+      }
+
+       h6{
+        display: block;
+        flex: 70%;
+        margin-top: 7px;
+        margin-left: 5px;
+        color:#173A76;
+      }
+      .session-info{
+          white-space: wrap;
+          margin: 10px;
+      }
+     
+      
+
+      .result{
+        background-color: #2E4D83;
+        border-radius: 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+      }
+
+       #result-header{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+   
+
+      .join-session button{
+        background-color: #CDB309;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 60%;
+       text-align: center;
+       align-items: center;
+     
+
+      }
+      .get-req button{
+        background-color: #CDB309;
+        border: none;
+        padding: 10px;
+        border-radius: 20px;
+        width: 60%;
+        text-align: center;
+        align-items: center;
+      
+     
+
+      }
+
+      .join-session button:hover{
+        background-color: rgb(228, 199, 11);
+    }
+    .be-ready button{
+        background-color: rgba(228, 199, 11, 0.466);
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        width: 60%;
+      color:#173A76;
+        text-align: center;
+        align-items: center;
+        
+        
+   
+
+
+      }
+   .post-req-btn button{
+
+    background-color: #CDB309;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%;
+    text-align: center;
+    align-items: center;
+
+   }
+   .post-req-btn button:hover{
+    background-color: rgb(228, 199, 11);}
+    
+
+.boxi{
+    
+     flex-basis: 40%; 
+     background: rgb(23, 58, 118);
+     padding: 30px 150px;
+     font-size: medium;
+     text-align: center;
+     border-radius: 30px;
+     position: relative;
+     margin-left: 200px;
+     top:300px;
+     
+     
+
+ 
+}
+
+
+h1{
+    position:relative;
+    text-align: center;
+    margin-left: 250px;
+    top: 4cm;
+    color:rgb(228, 199, 11);}
+  
+
+
+ h2
+{ 
+        top: 4cm;
+        position:a;
+        text-align: center;
+        color:rgb(228, 199, 11); 
+        
+}
+    h3 h4 {
+    position:relative;
+    text-align: center;
+    top: 1px;
+
+    padding: 20px;
+    margin: 5px;
+    color: #d9d9d9;
+  
+    
+}
+h4{
+  font-weight: bolder;
+  position:relative;
+  text-align: center;
+  top: 1px;
+
+  padding: 20px;
+  margin: 5px;
+  color:#173A76;
+}
+
+
+
+.session-info p{
+     position:relative;
+        text-align: center;
+        top: 1px;
+        color:#173A76; 
+        font-weight: bolder;
+}
+
+
+
+
+h5{
+    color: #ffffff;
+    margin-left: 50px;
+    align-items: center;
+    padding: 0;
+}
+
+h3{
+    margin: 5px;
+    color: #d9d9d9;
+
+}
+.sessions{
+
+    background-color: #173A76 ;
+border-radius: 30px;
+position: relative;
+width: 90%;
+height: max-content;
+bottom: 0;
+left: 0;
+padding: 20px;
+color: #173A76;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-bottom: 20px;
+justify-content: space-evenly;
+
+
+}
+
+.week-sesstoin{
+    display: inline-block;
+background-color: #2E4D83;
+border-radius: 10px;
+width: 100%;
+height: max-content;
+bottom: 30px;
+white-space: nowrap;
+overflow-x: auto;
+justify-content: flex-start;
+
+
+}
+
+.week-sesstoin::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.week-sesstoin::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background-color:rgba(217, 217, 217, 0.678) ;
+    visibility: hidden;
+}
+.week-sesstoin:hover::-webkit-scrollbar-thumb{
+    
+    visibility: visible;
+}
+
+
+.result-img {
+    flex: 20%;
+    width: 20%;
+    height: 20%;
+    margin-right: 5px;
+    border-radius: 100%;
+  }
+  .sessions{
+
+
+padding: 20px;
+color: #173A76;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-bottom: 20px;
+ flex-basis: 40%; 
+ background: rgb(23, 58, 118);
+ padding: 30px 30px;
+ font-size: medium;
+ text-align: center;
+ border-radius: 30px;
+ position: relative;
+ margin-left: 100px;
+ top: 100px;
+ margin-bottom: 400px;
+
+
+}
