@@ -185,3 +185,25 @@ span{
 a{
     color: darkblue;
 }
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .bottom section{
+    padding: 5px;
+    font-size: 0.9375rem;
+  }
+  .bottom section span{
+    color: #777;
+  }
+  .bottom section a{
+    color:rgb(228, 199, 11) ;
+    text-decoration: none;
+  }
+  .bottom section a:hover{
+   
+    text-decoration: underline;
+  }
+

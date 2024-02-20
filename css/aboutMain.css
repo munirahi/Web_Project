@@ -100,14 +100,11 @@ a{
 .bar a{
   color:white;
 }
-.bar ul li link:hover{
-  color: rgb(144, 155, 164);
+.bar a:hover{
+  text-decoration: none;
+  color:rgb(144, 155, 164);
 }
-.bar ul li .link{
 
-  color:rgb(255, 255, 255);
- 
-}
 .links{
   display: flex;
   align-items: center;
@@ -192,9 +189,7 @@ margin-bottom: 100px;
     align-items: center;
   
 }
-.link:hover , .active{
-    border-bottom: 2px solid rgb(23, 58, 118);
-}
+
 
 .links li{
     margin: 0 30px;
